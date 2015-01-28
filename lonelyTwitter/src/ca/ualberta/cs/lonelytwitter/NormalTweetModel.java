@@ -19,7 +19,7 @@ public class NormalTweetModel extends LonelyTweetModel {
 	
 	@Override
 	public boolean equals(Object other) {
-		return super.equals(other) && (other instanceof NormalTweetModel);
+		return super.equals(other);
 	}
 
 }
